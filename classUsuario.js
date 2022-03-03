@@ -9,12 +9,12 @@ class Usuario {
     }
     
     getFullName() {
-        console.log(`${nombre} + ${apellido}`)
+        return `${nombre} + ${apellido}`;
     }
 }
 const usuario = new Usuario('Karen', 'Piscitello');//, { mascotas, libros })
 
-getFullName();
+console.log(getFullName());
 
 // const datosCompletos = (datos) => {
 //     const { nombre, apellido } = datos;
